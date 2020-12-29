@@ -5,9 +5,9 @@
   "name": "hello-express",
   "version": "0.0.1",
   "description": "v12 ke",
-  "main": "lux.js",
+  "main": "kylus.js",
   "scripts": {
-    "start": "node lux.js"
+    "start": "node kylus.js"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -16,7 +16,11 @@
     "moment": "^2.26.0",
     "jimp": "^0.12.1",
     "quick.db": "^7.1.1",
-    "snekfetch": "^4.0.4"
+    "snekfetch": "^4.0.4",
+    "common-tags": "^1.8.0",
+    "node-superfetch": "^0.1.10",
+    "@freezegold/anime.js": "^2.0.2",
+    "weather-js": "^2.0.0"
   },
   "engines": {
     "node": "12.x"
