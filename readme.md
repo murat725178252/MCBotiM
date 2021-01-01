@@ -1,3 +1,3 @@
-Bu altyapı lux す#0549'a aittir lux.js ana dosyadır.
+Bu altyapı kylus.#2021'a aittir kylus.js ana dosyadır.
 -------------------------
-Code Master
+Code Kylus
