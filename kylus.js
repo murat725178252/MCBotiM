@@ -2,10 +2,10 @@ var mineflayer = require("mineflayer");
 var db = require("quick.db");
   
 var ayar = {
-  host: "KylusMap.aternos.me", //Sunucu IPnizi "" arasına giriniz.
-  port: 21672, //Sunucu portunuzu giriniz. Genellikle 25565 olarak ayarlıdır.
-  username: "KylusAternos", //Sunucuya giriş yapacak bot isminizi "" arasına girin.
-  version: false //Burası böyle kalsın değiştirmeyin.
+  host: "Sunucu_İp", //Sunucu IPnizi giriniz.
+  port: 21672, //Sunucu portunuzu giriniz.
+  username: "KylusAternos", //Sunucuya giriş yapacak bot isminizi girin.
+  version: false //Burayı değiştirmeyin.
 };
   
 var kayit = {
