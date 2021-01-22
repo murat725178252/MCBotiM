@@ -2,9 +2,9 @@ var mineflayer = require("mineflayer");
 var db = require("quick.db");
   
 var ayar = {
-  host: "AlperenSMP.aternos.me", //Sunucu IPnizi giriniz.
-  port: 44029, //Sunucu portunuzu giriniz.
-  username: "KylusYouTube", //Sunucuya giriş yapacak bot isminizi girin.
+  host: "germanyvnp.aternos.me", //Sunucu IPnizi giriniz.
+  port: 57715, //Sunucu portunuzu giriniz.
+  username: "KylusBOT", //Sunucuya giriş yapacak bot isminizi girin.
   version: false //Burayı değiştirmeyin.
 };
   
