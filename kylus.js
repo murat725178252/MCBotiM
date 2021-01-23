@@ -2,11 +2,12 @@ var mineflayer = require("mineflayer");
 var db = require("quick.db");
   
 var ayar = {
-  host: "AlperenSMP.aternos.me1", //Sunucu IPnizi giriniz.
-  port: 57715, //Sunucu portunuzu giriniz.
+  host: "AlperenSMP.aternos.me", //Sunucu IPnizi giriniz.
+  port: 55455, //Sunucu portunuzu giriniz.
   username: "KylusBOT", //Sunucuya giriş yapacak bot isminizi girin.
   version: false //Burayı değiştirmeyin.
 };
+
   
 var kayit = {
   authme: "yok", //Eğer sunucunuzda AuthMe eklentisi yoksa bu var yazısını yok olarak değiştirin.
