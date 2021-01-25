@@ -3,7 +3,7 @@ var db = require("quick.db");
   
 var ayar = {
   host: "AlperenSMP.aternos.me", //Sunucu IPnizi giriniz.
-  port: 55455, //Sunucu portunuzu giriniz.
+  port: 63838, //Sunucu portunuzu giriniz.
   username: "KylusBOT", //Sunucuya giriş yapacak bot isminizi girin.
   version: false //Burayı değiştirmeyin.
 };
@@ -44,7 +44,7 @@ bot.on("chat", function(username, message) {
   
       if (automessage == true) {
         setInterval(() => {
-          bot.chat("Kylus YouTube : https://www.youtube.com/Kylus"); // değiştirmek çok basit '' arasındaki yazıyı değiştirin yeter
+          bot.chat("Kylus YouTube : https://www.youtube.com/AlperenGeyik"); // değiştirmek çok basit '' arasındaki yazıyı değiştirin yeter
         }, 300000);
       }
     }
