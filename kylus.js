@@ -25,7 +25,7 @@ bot.on("chat", function(username, message) {
   }
   setInterval(intervalFunc, 7000);
   
-  if (kayit.authme == "var") {
+  if (kayit.authme == "yok") {
     let giris = db.fetch(`giris_${ayar.host}_${ayar.username}`);
     if (!giris) {
       bot.chat(`/register ${kayit.sifre} ${kayit.sifre}`); //Kayıt olmasını sağladık.
