@@ -3,7 +3,7 @@ var db = require("quick.db");
   
 var ayar = {
   host: "FistanSMP.aternos.me", //Sunucu IPnizi giriniz.
-  port: 63838, //Sunucu portunuzu giriniz.
+  port: 50733, //Sunucu portunuzu giriniz.
   username: "KylusBOT", //Sunucuya giriş yapacak bot isminizi girin.
   version: false //Burayı değiştirmeyin.
 };
