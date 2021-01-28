@@ -14,7 +14,7 @@ var kayit = {
   sifre: "ADMIN" //Buraya AuthMe varsa botun giriş yapması için şifreyi girin.
 };
   
-var automessage = false; //5 Dakika'da bir sunucuda botun mesaj atmasını istemiyorsan true yazısını false olarak değiştir.
+var automessage = true; //5 Dakika'da bir sunucuda botun mesaj atmasını istemiyorsan true yazısını false olarak değiştir.
   
 var bot = mineflayer.createBot(ayar);
   
@@ -25,7 +25,7 @@ bot.on("chat", function(username, message) {
   }
   setInterval(intervalFunc, 7000);
   
-  if (kayit.authme == "yok") {
+  if (kayit.authme == "var") {
     let giris = db.fetch(`giris_${ayar.host}_${ayar.username}`);
     if (!giris) {
       bot.chat(`/register ${kayit.sifre} ${kayit.sifre}`); //Kayıt olmasını sağladık.
