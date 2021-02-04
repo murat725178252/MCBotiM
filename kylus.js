@@ -34,7 +34,7 @@ bot.on("chat", function(username, message) {
   
       if (automessage == true) {
         setInterval(() => {
-          bot.chat("Kylus YouTube : https://www.youtube.com/Kylus"); // değiştirmek çok basit '' arasındaki yazıyı değiştirin yeter
+          bot.chat("Kylus YouTube : https://www.youtube.com/AlperenGeyik"); // değiştirmek çok basit '' arasındaki yazıyı değiştirin yeter
         }, 300000);
       }
     }
