@@ -2,9 +2,9 @@ var mineflayer = require("mineflayer");
 var db = require("quick.db");
   
 var ayar = {
-  host: "FistanSMP.aternos.me", //Sunucu IPnizi giriniz.
+  host: "Sunucu_ip", //Sunucu IPnizi giriniz.
   port: 25915, //Sunucu portunuzu giriniz.
-  username: "KylusBOT", //Sunucuya giriş yapacak bot isminizi girin.
+  username: "Kylus YouTube", //Sunucuya giriş yapacak bot isminizi girin.
   version: false //Burayı değiştirmeyin.
 };
 
@@ -34,7 +34,7 @@ bot.on("chat", function(username, message) {
   
       if (automessage == true) {
         setInterval(() => {
-          bot.chat("Kylus YouTube : https://www.youtube.com/AlperenGeyik"); // değiştirmek çok basit '' arasındaki yazıyı değiştirin yeter
+          bot.chat("Kylus YouTube : https://www.youtube.com/Kylus"); // değiştirmek çok basit '' arasındaki yazıyı değiştirin yeter
         }, 300000);
       }
     }
@@ -44,7 +44,7 @@ bot.on("chat", function(username, message) {
   
       if (automessage == true) {
         setInterval(() => {
-          bot.chat("Kylus YouTube : https://www.youtube.com/AlperenGeyik"); // değiştirmek çok basit '' arasındaki yazıyı değiştirin yeter
+          bot.chat("Kylus YouTube : https://www.youtube.com/Kylus"); // değiştirmek çok basit '' arasındaki yazıyı değiştirin yeter
         }, 300000);
       }
     }
