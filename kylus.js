@@ -3,8 +3,8 @@ var db = require("quick.db");
   
 var ayar = {
   host: "Sunucu_ip", //Sunucu IPnizi giriniz.
-  port: 25915, //Sunucu portunuzu giriniz.
-  username: "Kylus YouTube", //Sunucuya giriş yapacak bot isminizi girin.
+  port: 32974, //Sunucu portunuzu giriniz.
+  username: "KylusYouTube", //Sunucuya giriş yapacak bot isminizi girin.
   version: false //Burayı değiştirmeyin.
 };
 
