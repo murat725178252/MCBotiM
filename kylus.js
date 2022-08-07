@@ -2,8 +2,8 @@ var mineflayer = require("mineflayer");
 var db = require("quick.db");
   
 var ayar = {
-  host: "Sunucu_ip", //Sunucu IPnizi giriniz.
-  port: 32974, //Sunucu portunuzu giriniz.
+  host: "Sunucu-ip", //Sunucu IPnizi giriniz.
+  port: 34297, //Sunucu portunuzu giriniz.
   username: "KylusYouTube", //Sunucuya giriş yapacak bot isminizi girin.
   version: false //Burayı değiştirmeyin.
 };
