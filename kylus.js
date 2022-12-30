@@ -2,7 +2,7 @@ var mineflayer = require("mineflayer");
 var db = require("quick.db");
 
 var ayar = {
-  host: "Kylus.aternos.me", //Sunucu IPnizi giriniz.
+  host: "sunucu_ip", //Sunucu IPnizi giriniz.
   port: 26487, //Sunucu portunuzu giriniz.
   username: "KylusYouTube", //Sunucuya giriş yapacak bot isminizi girin.
   version: false, //Burayı değiştirmeyin.
