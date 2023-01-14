@@ -9,7 +9,7 @@ var ayar = {
 };
 
 var kayit = {
-  authme: "yok", //Eğer sunucunuzda AuthMe eklentisi yoksa bu var yazısını yok olarak değiştirin.
+  authme: "var", //Eğer sunucunuzda AuthMe eklentisi yoksa bu var yazısını yok olarak değiştirin.
   sifre: "ADMIN", //Buraya AuthMe varsa botun giriş yapması için şifreyi girin.
 };
 
