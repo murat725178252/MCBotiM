@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "mineflayer": "^2.23.0",
+    "mineflayer": "^4.6.0",
     "quick.db": "^7.1.1"
   },
   "engines": {
