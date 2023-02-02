@@ -2,18 +2,23 @@ var mineflayer = require("mineflayer");//Projeye Sahip olmak için sağ üst tar
 var db = require("quick.db");
 
 var ayar = {
-  host: "ip_adres", //Sunucu IPnizi giriniz.
+  host: "Sunucu_ip", //Sunucu IPnizi giriniz.
   port: 26487, //Sunucu portunuzu giriniz.
-  username: "KylusYouTube", //Sunucuya giriş yapacak bot isminizi girin.
+  username: "Kylus", //Sunucuya giriş yapacak bot isminizi girin.
   version: false, //Burayı değiştirmeyin.
 };
 
 var kayit = {
-  authme: "var", //Eğer sunucunuzda AuthMe eklentisi yoksa bu var yazısını yok olarak değiştirin.
-  sifre: "ADMIN", //Buraya AuthMe varsa botun giriş yapması için şifreyi girin.
+  authme: "var", //Sunucunuzda login plugini | varsa > evet | yoksa > yok
+  sifre: "ADMIN",
 };
 
-var automessage = true; //5 Dakika'da bir sunucuda botun mesaj atmasını istemiyorsan true yazısını false olarak değiştir.
+
+// BUNDAN SONRASINI SAKIN ELLEME SONRO BOT SUNUCUDAN ÇIK GİR YAPIYOR!!!! \\
+
+
+
+var automessage = true; 
 
 var bot = mineflayer.createBot(ayar);
 
@@ -27,13 +32,13 @@ bot.on("chat", function (username, message) {
   if (kayit.authme == "var") {
     let giris = db.fetch(`giris_${ayar.host}_${ayar.username}`);
     if (!giris) {
-      bot.chat(`/register ${kayit.sifre} ${kayit.sifre}`); //Kayıt olmasını sağladık.
+      bot.chat(`/register ${kayit.sifre} ${kayit.sifre}`);
       console.log("Bot kayıt oldu!");
       db.set(`giris_${ayar.host}_${ayar.username}`, "tm");
 
       if (automessage == true) {
         setInterval(() => {
-          bot.chat("Kylus YouTube : https://www.youtube.com/Kylus"); // değiştirmek çok basit '' arasındaki yazıyı değiştirin yeter
+          bot.chat("Kylus YouTube : https://www.youtube.com/Kylus");
         }, 300000);
       }
     }
@@ -43,7 +48,7 @@ bot.on("chat", function (username, message) {
 
       if (automessage == true) {
         setInterval(() => {
-          bot.chat("Kylus YouTube : https://www.youtube.com/Kylus"); // değiştirmek çok basit '' arasındaki yazıyı değiştirin yeter
+          bot.chat("Kylus YouTube : https://www.youtube.com/Kylus");
         }, 300000);
       }
     }
@@ -76,15 +81,3 @@ function bindEvents(bot) {
     bindEvents(bot);
   }
 }
-
-//Yeni Kod:
-const http = require("http");
-const express = require("express");
-const app = express();
-app.get("/", (request, response) => {
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-}, 150000);
