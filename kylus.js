@@ -1,4 +1,4 @@
-var mineflayer = require("mineflayer");
+var mineflayer = require("mineflayer");//Projeye Sahip olmak için sağ üst taraftaki ⚡ remix tuşuna basın!
 var db = require("quick.db");
 
 var ayar = {
