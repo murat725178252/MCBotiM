@@ -2,9 +2,9 @@ var mineflayer = require("mineflayer");//Projeye Sahip olmak için sağ üst tar
 var db = require("quick.db");
 
 var ayar = {
-  host: "Sunucu_ip", //Sunucu IPnizi giriniz.
-  port: 26487, //Sunucu portunuzu giriniz.
-  username: "Kylus", //Sunucuya giriş yapacak bot isminizi girin.
+  host: "legendtr.aternos.me", //Sunucu IPnizi giriniz.
+  port: 11223, //Sunucu portunuzu giriniz.
+  username: "Baldiback", //Sunucuya giriş yapacak bot isminizi girin.
   version: false, //Burayı değiştirmeyin.
 };
 
@@ -38,7 +38,7 @@ bot.on("chat", function (username, message) {
 
       if (automessage == true) {
         setInterval(() => {
-          bot.chat("Kylus YouTube : https://www.youtube.com/Kylus");
+         
         }, 300000);
       }
     }
@@ -48,7 +48,7 @@ bot.on("chat", function (username, message) {
 
       if (automessage == true) {
         setInterval(() => {
-          bot.chat("Kylus YouTube : https://www.youtube.com/Kylus");
+             
         }, 300000);
       }
     }
