@@ -9,7 +9,7 @@ var ayar = {
 };
 
 var kayit = {
-  authme: "var", //Sunucunuzda login plugini | varsa > evet | yoksa > yok
+  authme: "yok", //Sunucunuzda login plugini | varsa > evet | yoksa > yok
   sifre: "ADMIN",
 };
 
